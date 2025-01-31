@@ -1,0 +1,9 @@
+numpy
+matplotlib
+#matplotlib.pyplot
+pandas
+IPython
+cython
+pykka
+pillow
+psutil
