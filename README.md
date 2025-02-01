@@ -20,5 +20,4 @@ Escenario | Comando
 Algoritmo genético sin concurrencia | python genetic_algorithm_no_concurrency.py
 --- | ---
 Algoritmo genético con Pythran y OpenMP | python run_ga_pythran.py
---- | ---
 Algoritmo genético con PyKKA | python genetic_algorithm_pykka.py
