@@ -193,7 +193,7 @@ if __name__ == '__main__':
     print("Solution found:", solution)
     print("Fitness history length:", len(history))
     end = time.time()
-    print(end - start)
+    print('Total execution time:', end - start)
 
     t.stop()
 
