@@ -189,9 +189,8 @@ if __name__ == '__main__':
     start = time.time()
     t = MonitoringThread()
     t.start()
-    solution, history = train_ga(10000, 1000)
+    solution, _ = train_ga(10000, 1000)
     print("Solution found:", solution)
-    print("Fitness history length:", len(history))
     end = time.time()
     print('Total execution time:', end - start)
 
