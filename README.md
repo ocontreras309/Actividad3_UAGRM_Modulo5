@@ -17,7 +17,7 @@ pythran -DUSE_XSIMD -fopenmp genetic_algorithm_pythran.py -o genetic_algorithm_p
 Para ejecutar cada programa:
 
 Escenario | Comando | Descripción
---- | ---
+--- | --- | ---
 Algoritmo genético sin paralelismo | python genetic_algorithm_no_concurrency.py | No contiene optimizaciones ni uso de hilos. Se tomó como base
 Algoritmo genético con Pythran y OpenMP | python run_ga_pythran.py | Implementa optimizaciones a nivel de código máquina y también paralelismo a través de OpenMP
 Algoritmo genético con PyKKA | python genetic_algorithm_pykka.py | Implementa Pykka basado en el modelo de actores donde cada fase del algoritmo genético es tratada como un actor.
